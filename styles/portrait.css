@@ -1,0 +1,54 @@
+
+/* layout  */
+
+div.col-sm {
+	width: 100%;  
+	overflow: hidden;
+}
+table.col-lg { width: 100% !important;}
+
+
+
+/*header*/
+
+header a.col-sm { width: 35%; }
+header div.col-lg { width: 65%; }
+header a img { width: 200px; }
+header .col-lg h1 {
+	font-size: 2.3em; 
+	margin-top: 5px;
+}
+
+/* floor buttons  */
+
+ul#floor-buttons {
+	width: 120px;
+	border-right: #e0e0e0 solid 1px;
+	margin: 0;
+	height: auto;
+}
+	ul#floor-buttons li {
+		display: block;
+		margin: 48px 0px;
+	}
+
+
+/* floorplan container */
+
+div#floorplan-container {
+	float: right;
+	position: relative;
+	-webkit-transform:rotate(90deg);
+
+	/* repositioning after rotate*/
+	width: 325px;
+	top: -100px;
+	margin-bottom: -165px;
+	left: -150px;
+	overflow: hidden;
+}
+
+
+#image-container { height: 568px; }   /*exact height dimensions for images in portrait mode */
+
+footer {  display: none; }

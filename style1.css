@@ -1,0 +1,70 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,blockquote,fieldset,input{margin:0; padding:0;}
+body, html {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: rgba(0, 0, 0, .75);
+	font-size: 17px;
+	height: 100%;
+	background-color: #F7FCF8;
+}
+p , li{
+	line-height: 1.6em;
+	font-size: 17px;
+}
+a {
+	-webkit-transition:all .1s linear;
+	-moz-transition:all .1s linear;
+	-o-transition:all .1s linear;
+	transition:all .1s linear;
+	text-decoration: underline;
+}
+	a:hover {
+		color:#999; 
+		text-decoration: none;
+	}
+h1 {
+	font-size: 3em;
+	font-weight: normal;
+	font-family: 'PT Sans Narrow','Raleway', serif;
+	line-height: 1em;
+	margin-bottom: 40px;
+}
+h2 {
+	border-bottom: #82AF8B solid 1px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+}
+section, footer , header { padding: 45px 0; }
+header {	
+}
+	header img {max-width: 100%; }
+	header  p {
+		font-size: 1.4em;
+	}
+
+footer {
+	background-color: #666;
+	border-top: #333 1px solid;
+	color: #fff;
+	padding: 20px 50px;
+}
+
+.main .photos img, .main .plan img {
+	width: 100%;
+}
+
+.plan .btn.one {
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+canvas {
+	background: url("/img/floorplan.jpg") no-repeat;
+}
+.main {
+	-moz-box-shadow: 0 0 3px black; 
+	-webkit-box-shadow: 0 0 3px black; 
+	box-shadow: 0 0 3px black;
+	background: #fff;
+	background: rgba(255, 255, 255, .6);
+}
